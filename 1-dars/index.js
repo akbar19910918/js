@@ -219,12 +219,12 @@
 // console.log(map.get("title"));
 // console.log(map.has("name"));
 
-let obj={name:"webbrain"}
-let set = new Set();
-set.add(obj)
-set.add("academy","web")
-set.add("IT Center")
-console.log(set);
+// let obj={name:"webbrain"}
+// let set = new Set();
+// set.add(obj)
+// set.add("academy","web")
+// set.add("IT Center")
+// console.log(set);
 
 
 
