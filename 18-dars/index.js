@@ -3,10 +3,10 @@
 // sum (5)(-1)(2)==6;
 // sum (0)(1)(2)(3)(4)(5)==15
 
-let sum=(a)=>{
-    return(b)=>{console.log(a+b);};
-};
-sum(1)(2)(3)
+// let sum=(a)=>{
+//     return(b)=>{console.log(a+b);};
+// };
+// sum(1)(2)
 // let sum=(a)=>{
 //     return(b)=>{return(c)=>console.log(a+b+c);};
 // };
@@ -189,12 +189,17 @@ sum(1)(2)(3)
 //     }
 // }
 // console.log(sum(15));
-// const num=(n)=>{
-//     if(n===1) return 1;
-//     else{
-//         return n*num(n-1)
-//     }
-// }
-// console.log(num(5));
-
-
+const num=(n)=>{
+    if(n===5) return 5;
+    else{
+        return n*num(n-1)
+    }
+}
+console.log(num(10));
+function getInfo(a,b,c) {
+    console.log(this.name,this.surname,a,b,c);
+};
+getInfo.call({name:"eshmat",surname:"toshmat"},"web1",1)
+getInfo.apply({name:"eshmat",surname:"toshmat"},['web2',1,2,3])
+let test=getInfo.bind({name:"eshmat",surname:'toshmat'},"web3",1,2,3 )
+test()

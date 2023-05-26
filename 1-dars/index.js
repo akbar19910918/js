@@ -1,17 +1,17 @@
-// let myu=[
-//     {id:1,  name:"David De Gea",      num: 1,  status: "darvozabon"},
-//     {id:2,  name:"Luka Shaw",         num: 23, status: "himoyachi"},
-//     {id:3,  name:"Lisandro Martines", num: 6,  status: "himoyachi"},
-//     {id:4,  name:"Raphael Varane",    num: 19, status: "himoyachi"},
-//     {id:5,  name:"Diogo Dalot",       num: 20, status: "himoyachi"},
-//     {id:6,  name:"Cazemiro",          num: 18, status: "yarim himoyachi"},
-//     {id:7,  name:"Donny Van De Beek", num: 35, status: "yarim himoyachi"},
-//     {id:8,  name:"Antony",            num: 21, status: "hujumchi"},
-//     {id:9,  name:"Jadon Sancho",      num: 25, status: "hujumchi"},
-//     {id:10, name:"Bruno Fernandes",   num: 8,  status: "pleymeykr"},
-//     {id:11, name:"Marcus Reshford",   num: 10, status: "markaziy hujumchi"},
-//     {id:12, name:"Achilov Akbar",     num: 7,  status: "darturchi"},
-// ]
+let myu=[
+    {id:1,  name:"David De Gea",      num: 1,  status: "darvozabon"},
+    {id:2,  name:"Luka Shaw",         num: 23, status: "himoyachi"},
+    {id:3,  name:"Lisandro Martines", num: 6,  status: "himoyachi"},
+    {id:4,  name:"Raphael Varane",    num: 19, status: "himoyachi"},
+    {id:5,  name:"Diogo Dalot",       num: 20, status: "himoyachi"},
+    {id:6,  name:"Cazemiro",          num: 18, status: "yarim himoyachi"},
+    {id:7,  name:"Donny Van De Beek", num: 35, status: "yarim himoyachi"},
+    {id:8,  name:"Antony",            num: 21, status: "hujumchi"},
+    {id:9,  name:"Jadon Sancho",      num: 25, status: "hujumchi"},
+    {id:10, name:"Bruno Fernandes",   num: 8,  status: "pleymeykr"},
+    {id:11, name:"Marcus Reshford",   num: 10, status: "markaziy hujumchi"},
+    {id:12, name:"Achilov Akbar",     num: 7,  status: "darturchi"},
+]
 // //         CRUD
 // //  Crate,----distructura,use sprea(...)
 // // Read, --------filter,sort,includes,find
@@ -45,11 +45,11 @@
 // };
 // // numSort(myu)
 
-// // const deletaUser =(id) =>{
-// //     let res=myu.filter((value)=>value.id !==id)
-// //     console.log(res);
-// // };
-// // deletaUser(12);
+// const deletaUser =(num) =>{
+//     let res=myu.filter((value)=>value.num !==num)
+//     console.log(res);
+// };
+// deletaUser(1);
 // // const addUser =(user) =>{
 // //     myu=[...myu,{id:myu.length+1,...user}];//malumot qo'shish
 // //     // console.log(user);
@@ -128,6 +128,8 @@
 // internals:[{name:"Jon",salary:1000}]
 
 // };
+
+
 // function getCalc(company){
 //     if(Array.isArray(company)){
 //         return company.reduce((prev,curr)=>prev+curr.salary,0);
@@ -189,12 +191,16 @@
 // console.log(time.getFullYear());
 // console.log(`${time.getHours()}:${time.getMinutes()}:${time.getSeconds()}`);
 
-
+let obj={
+    name:"web",
+    title:"aca",
+    aga:4
+}
 
 // console.log(JSON.stringify(obj,[...Object.keys(obj).filter((value)=>value!=="title")]));
 
 // console.log(JSON.parse(`{"name":"webbrain"}`));
-// console.log(JSON.stringify(obj,["name","title"],4));
+console.log(JSON.stringify(obj,["name","title"]));
 
 
 
