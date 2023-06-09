@@ -58,8 +58,8 @@
 // function bolish(a,b){
 //     return a/b;
 // }
-// function calculate(a,b,operation){
-//     return operation(a,b)
+// function calculate(a,b,amal_bajarish){
+//     return amal_bajarish(a,b)
 // }
 // console.log(calculate(4,2,qoshish));
 // console.log(calculate(4,2,ayrish));
@@ -73,14 +73,14 @@
 //     }else{
 //         reject()
 //     }
-// })
+// // })
 
 // let promise=new Promise((resolve, reject) => {
 //     let num=3;
 //     if(num===5){
-//         resolve('xato')
+//         resolve('togri')
 //     }else{
-//         reject('togri')
+//         reject('xato')
 //     }
 // }) 
 // promise
@@ -88,7 +88,7 @@
 //     console.log('This is in the then block:', message);
 // })
 // .catch(message=>{
-//     console.log('This is in the catch block:', message);
+//     console.log('This is in the catch :', message);
 // })
 // .finally(()=>{
 //     console.log('top');
@@ -181,3 +181,15 @@
 //    render()
 //   };
 //   deleteUser(1)
+
+// const data=new Promise((resolve) => {
+//     setTimeout(() => {
+//         resolve('working')
+//     }, 1000);
+// });
+// const getData=async()=>{
+//     let res=await data;
+//     console.log(res,'test');
+// }
+// getData();
+// console.log('akbar');

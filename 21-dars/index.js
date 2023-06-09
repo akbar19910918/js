@@ -183,5 +183,14 @@
 //   removeEveryOther([['Goodbye'], { 'Great': 'Job' }]) //=>  [['Goodbye']]);
 
 
+// let ar=[1,2,3,45,55,567];
+// console.log(ar.findIndex((value)=>value===2));
+// let a=0.0012334;
+// let b =0.00126;
+// console.log(a.toFixed(3));
+// console.log(a.toPrecision(3));
+// console.log(b.toFixed(3));
+// console.log(b.toPrecision(3));
+
 
 
