@@ -1,0 +1,42 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  .fud {
+    color: brown;
+    padding-left: 40%;
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+
+.box {
+     width: 800px;
+     height: 400px;
+     background-color: aqua;
+     
+} */
+.fud {
+    color: red;
+    padding-left: 400px;
+    
+}
+#field {
+    width: 820px;
+    height: 380px;
+    border: 10px solid black;
+    background-color: #00FF00;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    padding-left: 300px;
+  }
+
+  #ball {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    transition: all 1s;
+  }
