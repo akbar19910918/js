@@ -18,26 +18,26 @@ let myu=[
 // // Update,------filter,find,map
 // // Delate ,-----filter,splice
 
-// // const filter=(key)=>{
-// //     let res=myu.filter((value)=>value.name.includes("ov"));
-// //     console.log(res);
-// // }
-// // filter('ov')
-// // const qoshish=(key)=>{
-// //   let res=myu.splice(0,1,);
-// //   console.log(myu);
-// // };
-// // qoshish({id:12, name:"Achilov Akbar",     num: 7,  status: "darturchi"},)
+// const filter=(key)=>{
+//     let res=myu.filter((value)=>value.name.includes("ov"));
+//     console.log(res);
+// }
+// filter('ov')
+// const qoshish=(key)=>{
+//   let res=myu.splice(0,1,);
+//   console.log(myu);
+// };
+// qoshish({id:12, name:"Achilov Akbar",     num: 7,  status: "darturchi"},)
 
 
 
 
 
-// const alphabetSort = (arr) => {
-//     let res = myu.sort((a, b) => a.name.localeCompare(b.name));
-//      console.log(res);
-//   };
-//     //  alphabetSort(myu);
+const alphabetSort = (arr) => {
+    let res = myu.sort((a, b) => a.name.localeCompare(b.name));
+     console.log(res);
+  };
+    //  alphabetSort(myu);
 
 // const numSort= (arr)=>{
 //     let res=myu.sort((a,b) => a.num-b.num);
@@ -50,56 +50,56 @@ let myu=[
 //     console.log(res);
 // };
 // deletaUser(1);
-// // const addUser =(user) =>{
-// //     myu=[...myu,{id:myu.length+1,...user}];//malumot qo'shish
-// //     // console.log(user);
-// //     // myu.push(user);
-// // };
-// // addUser({name:"Erig Ten Hag",num:"yoq'",status:"bosh murabbiy" });
-// // console.log(myu);
+// const addUser =(user) =>{
+//     myu=[...myu,{id:myu.length+1,...user}];//malumot qo'shish
+//     // console.log(user);
+//     // myu.push(user);
+// };
+// addUser({name:"Erig Ten Hag",num:"yoq'",status:"bosh murabbiy" });
+// console.log(myu);
 
-// // const updataUser =(data) =>{
-// //     let res=myu.map((value)=>value.id === data.id //malumotni yangilash
-// //     ? {...value,[data.type]:data.value}:value )
-// //     myu=res
-// // };
-// // updataUser({id:7,type:"name",value:"Christian Eriksen"})
-// // updataUser({id:7,type:"num",value:14})
-// // console.log(myu);
+// const updataUser =(data) =>{
+//     let res=myu.map((value)=>value.id === data.id //malumotni yangilash
+//     ? {...value,[data.type]:data.value}:value )
+//     myu=res
+// };
+// updataUser({id:7,type:"name",value:"Christian Eriksen"})
+// updataUser({id:7,type:"num",value:14})
+// console.log(myu);
 
 // // // ==========================================================================================================
 
-// const varatar =(str) =>{
-//     let res=myu.filter((value)=>value.status ==='darvozabon')
-//     console.log(res);
-// };
-// // varatar('darvozabon')
+const varatar =(str) =>{
+    let res=myu.filter((value)=>value.status ==='darvozabon')
+    console.log(res);
+};
+// varatar('darvozabon')
 
-// const himoyachi =(str) =>{
-//     let res=myu.filter((value)=>value.status ==='himoyachi')
-//     console.log(res);
-// };
-// //  himoyachi('himoyachi')
-// const yarm_himoyachi =(str) =>{
-//     let res=myu.filter((value)=>value.status ==='yarim himoyachi')
-//     console.log(res);
-// };
-// // yarm_himoyachi('yarim himoyachi')
-// const hujumchi =(str) =>{
-//     let res=myu.filter((value)=>value.status ==='hujumchi')
-//     console.log(res);
-// };
-// // hujumchi('hujumchi')
-// const pleymeykr =(str) =>{
-//     let res=myu.filter((value)=>value.status ==='pleymeykr')
-//     console.log(res);
-// };
-// // pleymeykr('pleymeykr')
+const himoyachi =(str) =>{
+    let res=myu.filter((value)=>value.status ==='himoyachi')
+    console.log(res);
+};
+//  himoyachi('himoyachi')
+const yarm_himoyachi =(str) =>{
+    let res=myu.filter((value)=>value.status ==='yarim himoyachi')
+    console.log(res);
+};
+// yarm_himoyachi('yarim himoyachi')
+const hujumchi =(str) =>{
+    let res=myu.filter((value)=>value.status ==='hujumchi')
+    console.log(res);
+};
+// hujumchi('hujumchi')
+const pleymeykr =(str) =>{
+    let res=myu.filter((value)=>value.status ==='pleymeykr')
+    console.log(res);
+};
+// pleymeykr('pleymeykr')
 
-// const markaziy_hujumchi =(str) =>{
-//     let res=myu.filter((value)=>value.status ==='markaziy hujumchi')
-//     console.log(res);
-// };
+const markaziy_hujumchi =(str) =>{
+    let res=myu.filter((value)=>value.status ==='markaziy hujumchi')
+    console.log(res);
+};
 // markaziy_hujumchi('markaziy hujumchi')
 
 
